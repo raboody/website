@@ -3,7 +3,7 @@ body {
     width: 70%;
 }
 nav ul, footer ul {
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-family: Georgia, Times, "Times New Roman", serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
