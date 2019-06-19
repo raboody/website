@@ -1,9 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family: "Lucida Sans Typewriter";
 }
 nav ul, footer ul {
-    font-family: Georgia, Times, "Times New Roman", serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -21,7 +21,6 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: "Lucida Sans Typewriter";
 }
 p {
     font-size: 1.5em;
