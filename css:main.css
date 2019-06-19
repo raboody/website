@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    font-family: "Georgia" "serif";
+    font-family: "Lucida Console";
 }
 nav ul, footer ul {
     padding: 0px;
@@ -21,6 +21,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    font-family: 'Trebuchet MS', Helvetica;
 }
 p {
     font-size: 1.5em;
