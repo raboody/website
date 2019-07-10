@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    font-family:'Lucida Console';
 }
 nav ul, footer ul {
     font-family:'Lucida Console';
