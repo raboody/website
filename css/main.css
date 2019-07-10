@@ -51,7 +51,7 @@ ul.posts li {
 }
 
 .column {
-  float: left;
+  float: center;
   width: 25%;
   text-align: center;
 }
