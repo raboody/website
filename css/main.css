@@ -23,10 +23,12 @@ a:hover {
 h1 {
     font-size: 3em;
     text-align: center;
+    color: #51BAC6;
 }
 h2 {
     font-size: 1.5em;
     text-align: center;
+    color: #333;
 }
 
 p {
