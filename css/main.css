@@ -55,5 +55,5 @@ ul.posts li {
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
   justify-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
