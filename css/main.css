@@ -52,7 +52,7 @@ ul.posts li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: auto;
   justify-items: center;
   justify-content: space-around;
