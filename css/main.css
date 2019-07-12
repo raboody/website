@@ -29,7 +29,8 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #49A2A0;
+    color: #999;
+    
 }
 a:hover {
     text-decoration: underline;
@@ -41,7 +42,8 @@ a:active {
 
 b {
     text-decoration: none;
-    color: #999;
+    color: #49A2A0;
+    font-weight: normal
 }
 b:hover {
     text-decoration: underline;
