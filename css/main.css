@@ -65,12 +65,16 @@ h2 {
     line-height: 1.4em;
     text-align: center;
     font-weight: normal;
+    padding: 15px;
+    margin:0px;
 }
 
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     text-align: center;
+    padding: 7px;
+    margin:0px;
 }
 
 ul.posts { 
@@ -90,10 +94,9 @@ ul.posts li {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 31% 31% 31%;
+  grid-template-columns: 31.5% 31.5% 31.5%;
   grid-template-rows: auto;
   justify-content: space-around;
-  text-align: bottom;
 }
 
 
