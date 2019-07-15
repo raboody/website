@@ -28,30 +28,30 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-a {
+a.nav {
     text-decoration: none;
     color: black;
     
 }
-a:hover {
+a.nav:hover {
     text-decoration: underline;
     color: #49A2A0;
 }
 
-a:active {
+a.nav:active {
   color: #333;
 }
 
-b {
+a.external {
     text-decoration: none;
     color: #49A2A0;
     font-weight: normal
 }
-b:hover {
+a.external:hover {
     text-decoration: underline;
 }
 
-b:active {
+a.external:active {
   color: #333;
 }
 
