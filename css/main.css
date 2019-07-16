@@ -97,6 +97,22 @@ ul.posts li {
     list-style: none;
 }
 
+ul.publications {
+  margin:10px 0;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  padding: 0px;
+  margin-left: 2.2em;
+  list-style-position: inside;
+  text-indent: -1.5em;
+
+}
+
+ul.publications li{
+  list-style: none;
+  margin: 18px 0;
+}
+
 .center {
   display: block;
   margin-left: auto;
