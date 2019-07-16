@@ -73,7 +73,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     text-align: center;
-    padding: 7px;
+    padding: 6px;
     margin:0px;
 }
 
@@ -100,7 +100,7 @@ ul.posts li {
 }
 
 
-@media(max-width:540px){
+@media(max-width:400px){
   .grid-container {
      grid-template-columns: repeat(1, 1fr);
   }
