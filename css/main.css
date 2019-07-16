@@ -15,6 +15,8 @@ nav ul{
     font-size: 1.1em;
     font-weight: bold;
     text-align: left;
+    margin: 60px auto;
+    width: 97%;
   } 
 footer ul {
     padding: 0px;
@@ -64,6 +66,15 @@ h2 {
     font-size: 1.6em;
     line-height: 1.4em;
     text-align: center;
+    font-weight: normal;
+    padding: 15px;
+    margin:0px;
+}
+
+h3 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    text-align: left;
     font-weight: normal;
     padding: 15px;
     margin:0px;
