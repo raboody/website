@@ -129,7 +129,7 @@ ul.publications li{
 
 @media(max-width:400px){
   .grid-container {
-     grid-template-columns: repeat(1, 1fr);
+     display: block;
   }
 }
 
