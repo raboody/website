@@ -126,12 +126,11 @@ ul.publications li{
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 300px) {
+
+@media only screen and (max-width:100px){
   .grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
+    width: 100% !important;
+     grid-template-columns: repeat(1, 1fr);
   }
 }
-
 
