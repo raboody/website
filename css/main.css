@@ -127,10 +127,12 @@ ul.publications li{
 }
 
 
-@media only screen and (max-width:100px){
+@media only screen and (max-width:600px){
   .grid-container {
-    width: 100% !important;
-     grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    justif-content: space-around;
   }
 }
 
