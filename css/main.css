@@ -57,6 +57,12 @@ a.external:active {
   color: #333;
 }
 
+@media screen and (max-width: 680px) {
+   a.nav {
+   	font-size: 1.4em;
+   }
+}
+
 h1 {
     font-size: 3em;
     text-align: center;
@@ -121,7 +127,6 @@ ul.publications li{
 
 #fixed-width-logo { 
 	max-width: 175px; 
-
 }  
 
 .grid-container {
@@ -137,7 +142,7 @@ ul.publications li{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    justif-content: space-around;
+    justify-content: space-around;
   }
 }
 
