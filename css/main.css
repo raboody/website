@@ -119,6 +119,22 @@ ul.publications li{
   margin-right: auto;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 31.5% 31.5% 31.5%;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 31.5% 31.5% 31.5%;
