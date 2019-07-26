@@ -136,13 +136,24 @@ ul.publications li{
   justify-content: space-around;
 }
 
+.contact-grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 
 @media only screen and (max-width:1024px){
   .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    justify-content: space-around;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width:450px){
+  .contact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
