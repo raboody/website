@@ -119,21 +119,10 @@ ul.publications li{
   margin-right: auto;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 31.5% 31.5% 31.5%;
-  grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
-}
+#fixed-width-logo { 
+	max-width: 175px; 
 
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  font-size: 150%;
-}
+}  
 
 .grid-container {
   display: grid;
@@ -143,7 +132,7 @@ ul.publications li{
 }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:1024px){
   .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
