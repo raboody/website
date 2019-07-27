@@ -32,7 +32,7 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 680px) {
    nav ul, footer ul {
    	font-size: 1.4em;
    }
@@ -141,7 +141,8 @@ ul.publications li{
 
 .contact-grid-container{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  text-align: right;
 }
 
 
@@ -153,10 +154,12 @@ ul.publications li{
   }
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:1024px){
   .contact-grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
   }
 }
 
