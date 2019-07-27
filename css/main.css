@@ -33,7 +33,7 @@ nav ul li, footer ul li {
 }
 
 @media only screen and (max-width: 680px) {
-   nav ul, footer ul {
+   nav ul li, footer ul li {
    	font-size: 1.4em;
    }
 }
