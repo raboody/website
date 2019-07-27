@@ -18,6 +18,7 @@ nav ul{
     margin: 60px auto;
     width: 97%;
   } 
+
 footer ul {
     padding: 0px;
     list-style: none;
@@ -25,9 +26,16 @@ footer ul {
     font-weight: bold;
     text-align: center;
 }
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+   nav ul, footer ul {
+   	font-size: 1.4em;
+   }
 }
 
 a.nav {
@@ -57,11 +65,6 @@ a.external:active {
   color: #333;
 }
 
-@media screen and (max-width: 1000px) {
-   nav ul, footer ul {
-   	font-size: 1.4em;
-   }
-}
 
 h1 {
     font-size: 3em;
@@ -154,8 +157,6 @@ ul.publications li{
   .contact-grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-    text-align: center;
   }
 }
 
