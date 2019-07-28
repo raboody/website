@@ -146,7 +146,7 @@ ul.publications li{
 }
 
 
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1300px){
   .grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -154,7 +154,7 @@ ul.publications li{
   }
 }
 
-@media only screen and (max-width:680px){
+@media only screen and (max-width:1300px){
   .contact-grid-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
