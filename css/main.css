@@ -145,6 +145,22 @@ ul.publications li{
   text-align: right;
 }
 
+span {
+  display: inline-block;
+  vertical-align: bottom;
+  line-height: normal;
+}
+
+.cogsci-2-grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: right;
+}
+
+.cogsci-grid-container {
+  display: grid;
+  grid-template-columns: repeat (75% 25%);
+}
 
 @media only screen and (max-width:1300px){
   .grid-container {
