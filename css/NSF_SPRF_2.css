@@ -1,0 +1,74 @@
+body {
+    margin: 60px auto;
+    width: 80%;
+    font-family: 'Helvetica' 
+}
+
+a.nav {
+    text-decoration: none;
+    color: black;
+    
+}
+a.nav:hover {
+    text-decoration: underline;
+    color: #49A2A0;
+}
+
+a.nav:active {
+  color: #333;
+}
+
+a.external {
+    text-decoration: none;
+    color: #49A2A0;
+    font-weight: normal
+}
+a.external:hover {
+    text-decoration: underline;
+}
+
+a.external:active {
+  color: #333;
+}
+
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: normal;
+    margin:0px;
+}
+
+h3 {
+    font-size: 1.4em;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: normal;
+    margin:0px;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 6px;
+    margin:0px;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+.item {
+  margin: 0.5rem;
+}
+
+

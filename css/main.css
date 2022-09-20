@@ -132,6 +132,10 @@ ul.publications li{
 	max-width: 175px; 
 }  
 
+#fixed-width-NSF { 
+  max-width: 250px; 
+}  
+
 .grid-container {
   display: grid;
   grid-template-columns: 31.5% 31.5% 31.5%;

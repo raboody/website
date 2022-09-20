@@ -1,0 +1,23 @@
+body {
+    margin: 60px auto;
+    width: 80%;
+    font-family: 'Helvetica' 
+}
+
+h2 {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    text-align: center;
+    font-weight: normal;
+    padding: 15px;
+    margin:0px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -0.5rem;
+}
+.item {
+  margin: 0.5rem;
+}
