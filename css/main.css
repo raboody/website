@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 80%;
+    width: 100%;
     font-family: 'Helvetica' 
 }
 
@@ -12,9 +12,9 @@ header title,header nav {
 nav ul{
     padding: 0px;
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     margin: 60px auto;
     width: 97%;
   } 
@@ -22,9 +22,10 @@ nav ul{
 footer ul {
     padding: 0px;
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: bold;
-    text-align: center;
+    text-align: right;
+    width: 97%;
 }
 
 nav ul li, footer ul li {
@@ -80,6 +81,15 @@ h2 {
     margin:0px;
 }
 
+#header_2_main {
+    font-size: 1.6em;
+    line-height: 1.4em;
+    text-align: left;
+    font-weight: normal;
+    padding: 15px;
+    margin:0px;
+}
+
 h3 {
     font-size: 1.6em;
     line-height: 1.4em;
@@ -94,6 +104,14 @@ p {
     line-height: 1.4em;
     text-align: center;
     padding: 6px;
+    margin:0px;
+}
+
+#paragraph_main {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-align: left;
+    padding: 15px;
     margin:0px;
 }
 
@@ -149,6 +167,25 @@ ul.publications li{
   text-align: right;
 }
 
+.grid-container-new-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr .2fr;
+  justify-content: space-around;
+  background-color: #C5F5F9;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.grid-container-new-main-no-color {
+  display: grid;
+  grid-template-columns: 1fr 2fr .2fr;
+  justify-content: space-around;
+  text-align: left;
+  padding-left: 0px;
+}
+
+
+
 span {
   display: inline-block;
   vertical-align: bottom;
@@ -183,4 +220,24 @@ span {
   }
 }
 
+
+@media only screen and (max-width:1300px){
+  .grid-container-new-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width:1300px){
+  .grid-container-new-main-no-color {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+}
 
